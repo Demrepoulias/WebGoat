@@ -6,7 +6,7 @@
 | Severity | Είδος Ευπάθειας     | Αρχείο                          | Περιγραφή                                      | Link στο CVE |
 |----------|---------------------|----------------------------------|------------------------------------------------|----------------|
 | Critical | [1] SQL Injection       | webgoat-lessons/SQLInjection.java | Εισαγωγή μη φιλτραρισμένων εισόδων στον SQL query. | [Alert](#)     |
-| Critical | [2] Unsafe Deserialization   | hwebgoat/lessons/vulnerablecomponents/VulnerableComponentsLesson.java#L42-L42         | Εκτέλεση εντολών κελύφους με μη φιλτραρισμένα δεδομένα. | [Alert](#)     |
+| Critical | [2] Unsafe Deserialization   | webgoat/lessons/vulnerablecomponents/VulnerableComponentsLesson.java#L42-L42         | Εκτέλεση εντολών κελύφους με μη φιλτραρισμένα δεδομένα. | [Alert](#)     |
 | High     | [3] Path Traversal      | webgoat-lessons/FileAccess.java   | Επιτρέπει πρόσβαση σε αρχεία εκτός του επιτρεπόμενου path. | [Alert](#)     |
 | High     | [4] Cross-Site Scripting (XSS) | webgoat-lessons/XSS.java          | Μη κωδικοποιημένη έξοδος HTML επιτρέπει injection script. | [Alert](#)     |
 | High     | [5] Hardcoded Credentials | webgoat-lessons/Auth.java        | Χρήση σταθερών διαπιστευτηρίων στον κώδικα.     | [Alert](#)     |
